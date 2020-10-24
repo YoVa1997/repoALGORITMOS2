@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+}
+
+.caja {
+    background: #0353a4;
+    width: 200px;
+    margin: 20px;
+}
+
+.caja p {
+    
+    padding-top: 20px;
+    padding-left: 20px;
+}
+

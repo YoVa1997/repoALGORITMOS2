@@ -1,0 +1,127 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: #f2f2f2;
+}
+
+.caja {
+	width: 200px;
+	height: 200px;
+	background: #0E6BA8;
+	margin: 20px;
+}
+
+/*.cajaPadre {
+	margin: 20px;
+	background: #2e294e;
+	width: 500px;
+	height: 500px;
+	position: relative;
+}*/
+
+
+/*
+- NORMAL (static ):  posicionamiento por defecto con el que los navegadores acomodan los elementos
+*/
+.estatico {
+    background: green;
+    position: static;
+    /*propiedades para posicionar las cajas
+    top: ;    
+    right: ;
+    left: ;
+    bottom: ;
+    */
+}
+
+/* Relativo (relative): Nos permite posicionar una caja y despues moverla desde su lugar original a 
+donde nosotros querramos */
+.relativo {
+    background: green;
+    position: relative;
+    /*propiedades para posicionar las cajas*/
+    top:;    /*empujar de arriba hacia abajo*/
+    right:; /*empujar de derecha a izquierda*/
+    left:; /*empujar de izquierda a derecha*/
+    bottom:; /*empujar de abajo hacia arriba*/
+    
+}
+
+/* Absoluta (absolute): Nos permite posicionar una caja respecto a su contenedor 
+y el resto de elementos ignora la nueva posicion y toman la posicion de la caja
+que se desplazó y tomó el nuevo lugar */
+.absoluto {
+    background: green;
+    position: absolute;
+    /*propiedades para posicionar las cajas*/
+    top:;    /*jalar de arriba hacia abajo*/
+    right:; /*jalar de derecha a izquierda*/
+    left: 200px; /*jalar de izquierda a derecha*/
+    bottom:; /*jalar de abajo hacia arriba*/
+    
+}
+
+.fijo {
+    background: green;
+    position: fixed;
+    /*propiedades para posicionar las cajas*/
+    top:;    
+    right:0%; 
+    left: ; 
+    bottom:0%; 
+    
+}
+
+/*ejemplo cuando una caja está adentro de otra*/
+/*caja contenedora*/
+/*si tiene un contenedor padre con un position relative y adentro 
+tiene un elemento absolute, con esa posicion lo puedes acomodar al elemento 
+hijo dependiendo del acomodo de la caja padre */
+.cajaPadre{
+	margin:20px;
+	background: #2e294e;
+	width: 500px;
+	height: 500px;
+	position: relative;
+}
+
+.cajaHijo {
+    background: #6695e8;
+    position: absolute;
+    /*propiedades para posicionar las cajas*/
+    top: ;    
+    right: 0%; 
+    left: ; 
+    bottom:0%; 
+    
+}
+
+.flotante {
+    background: green;    
+    float: right;
+    
+}
+
+/*
+- NORMAL (static ):  posicionamiento por defecto con el que los navegadores acomodan los elementos
+- Relativo (relative): Nos permite posicionar una caja y despues moverla desde su lugar original
+- Absoluta (absolute): Nos permite posicionar una caja respecto a su contenedor y el resto de elementos ignora la nueva posicion
+- Fijo (fixed) nos permite posicionar una caja en donde su posicion respecto a la pantalla del usuario siempre va a ser la misma
+- flotante (float): nos permite desplazar las cajas todo lo posible hacia la derecha o izquierda.
+
+
+
+*/
+
+/* Tipos de Posicionamiento:
+
+	- Normal (static): Posicionamiento por defecto con el que los navegadores acomodan los elementos
+	- Relativo (relative): Nos permite posicionar una caja y despues moverla desde su lugar original.
+	- Abosluto (absolute): Nos permite posicionar una caja respecto a su contenedor y el resto de elementos ignoran la nueva posicion.
+	- Fijo (fixed): Nos permite posicionar una caja en donde su posicion respecto a la pantalla del usuario siempre va a ser la misma.
+	- Flotante (float): Nos permite desplazar las cajas todo lo posible hacia la derecha o izquierda.
+
+*/

@@ -1,0 +1,22 @@
+ body {
+
+background: #637dda;
+background: url('img/bg.jpg');
+background-size: 50%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: 75px 200px; 
+
+
+/* background: url('img/bg.jpg') no-repeat fixed 50px 200px;
+background-size: 500px; */
+}
+
+
+
+.fondo {
+    background-image: #000;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	
+}
